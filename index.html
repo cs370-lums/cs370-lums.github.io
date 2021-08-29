@@ -1,1 +1,177 @@
-hello
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS370: Operating Systems </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/custom.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./">CS&nbsp;370</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="./index.html">Overview</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.lums.edu.pk" style="padding:12px 0;"><img src="static/logo.png" height=45 /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+  <h1>Operating System<span class="pull-right"><small>Fall 2021</small></span></h1>
+  <p>
+    This course introduces the fundamental concepts of operating system design and implementation. The course aims at providing an
+understanding of how the operating system enables interaction between user-level applications and the underlying system hardware. The concepts
+in this course are not limited to any particular operating systems or hardware platform. However, we will mostly discuss examples from Unix/Linux operating system in this class.
+    
+The course lectures will be accompanied by several programming assignments that form or depend on much of the core functionality
+in modern operating systems. These projects will provide students practical exposure to topics such as processes/threads, file systems, and
+    memory management.
+    
+  </p>
+
+  <br>
+  <table class="table">
+    <tr>
+      <td><b>Professor</b></td>
+      <td>
+	<a href="https://whassan3.web.engr.illinois.edu/">Wajih Ul Hassan</a><br>
+        Office hours: By appointment<br>
+      </td>
+    </tr>
+    
+    <tr>
+      
+      <td><b>Teaching Assistants</b></td>
+      <td>
+	<ul>
+          <li> Abdul Monum - 22100026 </li> 
+	  <li> Hamza Shahzad - 22100027 </li>
+	  <li> Muhammad Shahpar Nafees Khan - 22100130 </li>
+	  <li> Mati Ur Rehman - 22100173 </li>           
+	  <li> Syeda Mashal Abbas Zaidi - 22100008 </li>
+	  <li> Zafir Ansari - 22100040 </li>          
+	 </ul>
+	  Office hours: By appointment<br>
+      </td>
+
+    <tr>
+      <td><b>Lectures</b></td>
+      <td>
+	MW 12:30PM-1:45PM <i>Online Zoom Classroom</i><br>
+      </td>
+    </tr>
+
+    <tr>
+      <td><b>Format</b></td>
+      <td>
+	This class will be 100% online, with both synchronous and asynchronous lectures.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Required Text Book</b></td>
+      <td>
+	<ul>
+          <li>
+            <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank">Operating Systems: Three Easy Pieces</a>, Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau. (This textbook is FREE).
+          </li>
+	</ul>
+
+  <p>Optional Reading:</p>
+  <ul>
+      <li>
+          Virtual Machines, James E. Smith and Ravi Nair, Elsevier / Morgan Kaufmann, 2005
+      </li>
+      <li>
+          Linux Kernel Development (3rd Edition), Robert Love, 2010
+      </li>
+  </ul>
+
+  <p>
+      You may find the Linux Kernel Development book to be helpful when completing your programming assignments.
+  </p>
+	
+      </td>
+    </tr>
+    <tr>
+      <td><b>Communications</b></td>
+      <td>
+
+	We will make use of the following communication methods during this course:<br><br>
+
+	<ul>
+	  <li><u>Lectures, Discussions, Office Hours</u>: <a href="">Zoom</a></li>
+	  <li><u>Lecture Slides</u>: This <a href="schedule.html">website</a></li>
+          <li><u>Class Discussion/Organization</u>: <a href="https://cs370-lums.slack.com">Slack</a></li>
+	  <li><u>Lecture Recordings, Quizzes, and Grades:</u> <a href="">LMS</a></li>
+	</ul>
+	
+      </td>
+    </tr>
+
+    <tr>
+      <td><b>Grading</b></td>
+      <td>
+    <p>
+      Grades will be assigned as follows:
+    </p>
+
+    <ul>
+        <li> <i>Programming Assignments:</i> The four programming assignments (PAs) will be worth 40% of your grade. <b>All PAs should be solved individually.</b> <b>No late submissions are allowed.</b></li>
+        <li> <i>Midterm:</i> The midterm will be worth 20% of your grade.</li>
+        <li> <i>Final:</i> A final exam will be worth 30% of your grade.</li>
+        <li> <i>Participation:</i> Accounts for 10%. Includes in-class discussion and quizes.</li>
+    </ul>
+    <td>
+    </tr>
+      
+    <hr>
+    
+    
+  </table>
+
+<hr>
+
+
+<h2>Course Expectations</h2>
+
+    <p>
+      The expectations for the course are that students will attend every class, do any readings assigned for class, and actively and constructively participate in class discussions. Class participation will be a measure of contributing to the discourse both in class, through discussion and questions, and outside of class through contributing and responding to the discussion forum.
+    </p>
+
+    <p>
+      More information about course requirements will be made available leading up to the start of classes
+    </p>
+
+    <h2>Ethics Statement</h2>
+
+    <p>
+      This course will include topics related to computer security and privacy. As part of this investigation, we may cover technologies whose abuse could infringe on the rights of others. As computer scientists, we rely on the ethical use of these technologies. Unethical use includes circumvention of an existing security or privacy mechanisms for any purpose, or the dissemination, promotion, or exploitation of vulnerabilities of these services. Any activity outside the letter or spirit of these guidelines will be reported to the proper authorities and may result in dismissal from the class and possibly more severe academic and legal sanctions.
+    </p>
+
+<h2>Credits</h2>
+
+    <p>
+      This course is based on UIUC's CS423:Operating System Design, taught by <a class="paperlink" href="https://adambates.org/" target="_blank">Professor Adam Bates</a> and <a class="paperlink" href="https://tianyin.github.io/" target="_blank">Professor Tianyin Xu</a>.
+    </p>
+    
+</div>
+
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+  </body>
+</html>
